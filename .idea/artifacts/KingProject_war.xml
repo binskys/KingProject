@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="KingProject:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="FreshErp.war">
+      <element id="artifact" artifact-name="KingProject:war exploded" />
+    </root>
+  </artifact>
+</component>

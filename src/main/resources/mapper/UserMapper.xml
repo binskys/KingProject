@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--resultType 指定单条记录返回的类型-->
+<mapper namespace="com.kings.api.model.UserBean">
+    <select id="findById" parameterType="int" resultType="com.kings.api.model.UserBean">
+        select * from study where id = #{id}
+    </select>
+</mapper>
